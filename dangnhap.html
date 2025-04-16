@@ -9,18 +9,18 @@
     <script src="style.js"></script>
 </head>
 <body>
-    <form>
-        <div class="Email">
-            <label for="Email">Email</label>
-            <input type="email" id="email" />
-        </div>
-        <div class="password">
-            <label for="password">Mật khẩu</label>
-            <input type="password" id="password" name="password" />
-        </div>
-        <div class="submit">
-            <input type="submit" value="Đăng nhập" />
-        </div>
-    </form>
+    <form class="login-form">
+    <div class="input-container">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Nhập email của bạn" required />
+    </div>
+    <div class="input-container">
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" placeholder="Nhập mật khẩu" required />
+    </div>
+    <div class="submit-container">
+        <input type="submit" value="Đăng nhập" />
+    </div>
+</form>
 </body>
 </html>
